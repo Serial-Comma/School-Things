@@ -1,3 +1,2 @@
-HelloWorld
-from
-Singapore
+Alexa, Good morning!
+What time is it?
