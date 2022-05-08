@@ -1,9 +1,6 @@
 <id><name>              <dob>     <email>                       <mobile>
 1   Lim Ah Seng         1995-01-01limahseng@hotmail.com         12345678
 2   Tan Ah Lian         1995-12-31tanahlian@yahoo.com           87654321
-<<<<<<< HEAD
-3   Lim Ko Pee          1995-02-28limkohpee@coldmail.com        24681357
-=======
 3   Lim Ko Pee          1995-02-28limkohpee@coldmail.com        24681357
 3   Lim Ko Pee          1995-02-28limkohpee@coldmail.com        24681357
 3   Lim Ko Pee          1995-02-28limkohpee@coldmail.com        24681357
@@ -17,5 +14,7 @@
 3   Lim Ko Pee          1995-02-28limkohpee@coldmail.com        24681357
 3   Lim Ko Pee          1995-02-28limkohpee@coldmail.com        24681357
 3   Lim Ko Pee          1995-02-28limkohpee@coldmail.com        24681357
->>>>>>> 01368cf21badb80b8058494d7f6f9ed925888324
+3   Lim Ko Pee          1995-02-28limkohpee@coldmail.com        24681357
+3   Lim Ko Pee          1995-02-28limkohpee@coldmail.com        24681357
+3   Lim Ko Pee          1995-02-28limkohpee@coldmail.com        24681357
 3   Lim Ko Pee          1995-02-28limkohpee@coldmail.com        24681357
