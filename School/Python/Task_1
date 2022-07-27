@@ -1,0 +1,58 @@
+#!/usr/bin/env python3
+# Path: School/Python/Task_2
+
+
+
+class AccountHolder:
+# Constructor -- assign default values with default values to data members
+    def __init__(self,hdName = "NAME", hdAddress = "ADDRESS", hdProf = "PROFESSION", hdBday = "01/91/1900"):
+        self.Holdername = hdName
+        self.Address = hdAddress
+        self.Profession = hdProf
+        self.Birthday = hdBday
+        print(f"+++AccountHolder ('{self.Holdername}') has been created") # Prints the message when the object is created
+
+    def __str__(self):
+        return(f"Name: {self.Holdername}\tAddress: {self.Address}\tProfession: {self.Profession}\tBirthday: {self.Birthday}")
+#Destructor
+    def __del__(self):
+        print(f"---AccountHolder ('{self.Holdername}') has been destroyed") # Prints the message when the object is destroyed
+        return True
+
+def main():
+    print("Task_1 Class AccountHolder created successfully") # Prints the message when the program is run
+
+#Driver
+def main():
+    # ah1 = AccountHolder() 
+    # print(f"\n 01] ah1 ID={id(ah1)}") 
+    # print(f"\n 02] ah1 attributes - Name: {ah1.Holdername}, Address: {ah1.Address}, Profession: {ah1.Profession}, Birthday: {ah1.Birthday}") 
+    # print(f"\n 04] ah1 dir(ah1)- : {dir(ah1)}") 
+    # print(f"\n 05] ah1.__dict__- : {ah1.__dict__}") 
+    # ah1Keys = ah1.__dict__.keys() 
+    # print(f"\n 06] Data type of ah1Keys: {type(ah1Keys)}")
+    # ah1Fields = ah1.__dict__
+    # print(f" 07] ah1 dictionary elements: {ah1Fields['Holdername']}, {ah1Fields['Address']}, {ah1Fields['Profession']}, {ah1Fields['Birthday']}")
+    # print(f" 08] ah1Fields.values() - : {ah1Fields.values()}") 
+    # ah1List = list(ah1Fields) #Converts the dictionary to a list
+    # print(f" 09] ah1 List elements: {ah1List[0]}, {ah1List[1]}, {ah1List[2]}, {ah1List[3]}")
+    # ah2 = AccountHolder
+    # ah3 = ah2
+    # print(f"\n 10] ah1 ID={id(ah1)}, ah2 ID = {id(ah2)}, ah3 ID = {id(ah3)}") 
+    # print(f"\n 11] ah1 == ah2: {ah1 == ah2}") 
+    # print(f"\n 12] ah2 == ah3: {ah2 == ah3}") 
+
+    ah1 = AccountHolder()
+    print(f"\n 01] object ah1: {ah1}")
+    #Values of attributes pass from external enviroment
+    ah2 = AccountHolder("John", "123 Main St.", "Teacher", "01/01/2000")
+    print(f"\n 02] object ah2: {ah2}")
+
+
+main()
+
+
+
+
+
+
