@@ -46,7 +46,7 @@ def main():
     print(f"\n 01] object ah1: {ah1}")
     #Values of attributes pass from external enviroment
     ah2 = AccountHolder("John", "123 Main St.", "Teacher", "01/01/2000")
-    print(f"\n 02] object ah2: {ah2}")
+    print(f"\n 02] object ah2: {ah2}")  
 
 
 main()
