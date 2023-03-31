@@ -1,8 +1,17 @@
 body{background:url("../../Web design/Images/nyancat.gif");}
 
-h1{color:blue;}
+h1{color:white;}
 p{
     background:yellow;
     color:red;
 
+}
+
+a:link, a:visited {
+    color: orange;
+    text-decoration: none;
+    font-size: 100px;
+    -webkit-text-stroke: 10x black;
+    text-stroke: 10px black;
+    text-decoration-line:    underline;
 }
