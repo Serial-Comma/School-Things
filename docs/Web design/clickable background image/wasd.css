@@ -1,0 +1,23 @@
+.photo {
+    background-image: url('https://i.ytimg.com/vi/kkBgqTXLgTw/maxresdefault.jpg');
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 150%;
+    background-clip: border-box;
+    transition: background-size 0.2s;
+    transition-timing-function: cubic-bezier(.07,1.41,.82,1.41);
+    border: 1px solid red;
+    display: block;
+    width: 1000px;
+    height: 1000px;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space:nowrap;
+}
+
+.photo:hover {
+    background-size: 500px;
+}

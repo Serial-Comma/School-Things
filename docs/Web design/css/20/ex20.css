@@ -1,0 +1,9 @@
+/* Write css code for the tip class here */
+.tip {
+    
+    background-color: yellow;
+    border: 1px solid red;
+    /* display: inline-block; */
+    width: 400px;
+    text-align: center;
+}
