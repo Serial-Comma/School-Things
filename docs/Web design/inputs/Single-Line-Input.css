@@ -1,0 +1,30 @@
+.center {
+    text-align: center;
+    margin: 0 auto;
+    border: 3px solid green;
+  }
+  
+  .box {
+    width: 150px;
+    height: 130px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    text-align: left;
+    background-image: url("../Images/nyancat.gif");
+    background-size: cover;
+    background-color: cadetblue;
+    padding: 10px;
+  }
+  
+  .box label {
+    color: white;
+    text-shadow: 1px 0px #000000;
+  }
+  .box p{
+    color: white;
+  }
+
+  .white {
+    color: white;
+  }
+  
