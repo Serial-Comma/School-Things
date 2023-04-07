@@ -43,6 +43,18 @@ p{
     /* center the div */
     margin: 0 auto;
     text-align: center;
+    border: 5px solid transparent;
+
+}
+.img img{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.img img:hover{
+    border : 5px solid white;
+    margin: -5px;
+    margin-right: 25px;
+    margin-bottom: 25px;
 }
 
 .login{
