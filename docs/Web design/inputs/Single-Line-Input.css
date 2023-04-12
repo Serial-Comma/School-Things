@@ -4,27 +4,79 @@
     border: 3px solid green;
   }
   
-  .box {
-    width: 150px;
-    height: 130px;
-    /* border: 1px solid red; */
-    margin: 0 auto;
-    text-align: left;
-    background-image: url("../Images/nyancat.gif");
-    background-size: cover;
-    background-color: cadetblue;
-    padding: 10px;
-  }
-  
-  .box label {
-    color: white;
-    text-shadow: 1px 0px #000000;
-  }
-  .box p{
-    color: white;
-  }
+.box {
+  width: 150px;
+  height: 130px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  text-align: left;
+  background-image: url("../Images/nyancat.gif");
+  background-size: cover;
+  background-color: cadetblue;
+  padding: 10px;
+}
 
-  .white {
-    color: white;
-  }
-  
+.box label {
+  color: white;
+  text-shadow: 1px 0px #000000;
+}
+.box p{
+  color: white;
+}
+
+.white {
+  color: white;
+}
+
+.box2 {
+  width: 500px;
+  height: 90px;
+  padding:10px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: left;
+  border: 1px solid blue;
+
+
+}
+
+.box3{
+  width: 500px;
+  height: 100px;
+  padding:10px;
+  margin: 0 auto;
+  text-align: left;
+  border: 1px solid red;
+  margin-bottom: 10px;
+}
+
+.box4{
+  width: 500px;
+  height: 90px;
+  padding:10px;
+  margin: 0 auto;
+  text-align: left;
+  border: 1px solid purple;
+  margin-bottom: 10px;
+}
+
+.box5{
+  width: 500px;
+  height: 100px;
+  padding:10px;
+  margin: 0 auto;
+  text-align: left;
+  border: 1px solid pink;
+  margin-bottom: 10px;
+}
+
+.box6{
+  width: 500px;
+  height: 80px;
+  padding:10px;
+  margin: 0 auto;
+  text-align: left;
+  border: 1px solid orange;
+  margin-bottom: 10px;
+}

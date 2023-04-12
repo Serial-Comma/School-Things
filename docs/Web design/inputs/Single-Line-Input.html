@@ -6,7 +6,7 @@
         <link rel="stylesheet" type="text/css" href="Single-Line-Input.css">
     </head>
     <body>
-        <form action="http://127.0.0.1:5500">
+        <form action="./loading.html">
             <div class="center">
                 <h1>Sign in</h1>
                 <p> Username: <input type="text" name="username" size="69" maxlength="30" placeholder="Write ur drippiest drip here"></p>
@@ -15,10 +15,45 @@
                     <p>Are you a human?</p>
                     <label>
                     <input type="radio" name="human" value="human"> Yes<br>
-                    <input type="radio" name="human" value="human" checked="checked"> No<br>
-                    <input type="radio" name="human" value="human"> Unsure
+                    <input type="radio" name="human" value="robot" checked="checked"> No<br>
+                    <input type="radio" name="human" value="unsure"> Unsure
                     </label>
                 </div>
+                <div class="box2">
+                    <p><b>Select all that apply:</b></p>
+                    <label>
+                    <input type="checkbox" name="checkbox" value="mommy">I want mommy
+                    <input type="checkbox" name="checkbox" value="milk">I want milk
+                    <input type="checkbox" name="checkbox" value="held"> I want to be held
+                    </label>
+                </div>
+                <div class="box3">
+                    <p><b>Upload a photo of your credit card, the expiry date and the 3 digits at the back:</b></p>
+                    <input type="file" name=" userfile">
+                    <!-- <br>
+                    <input type="submit" value="Submit"> -->
+                </div>
+                <div class="box4">
+                    <p><b>Subscribe for only more fan-related content:</b></p>
+                    <input type="email" name="email" size="69" maxlength="30" placeholder="Enter your email here">
+                    <br>
+                    <!-- <p>Submit: <input type="image" src="../Images/frog.gif" value="Subscribe" width="100" height="50" alt="Submit form"></p> -->
+                    </p>
+                </div>
+                <div class = "box5">
+                    <p><b>Enter your significant other's birthday:</b></p>
+                    <input type="date" name="birthday">
+                </div>
+                <div class = "box6">
+                    <p><b>Select your age range:</b></p>
+                    <select name="age">
+                        <option value="" selected="">Please select</option>
+                        <option value="Small">Small</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Large">Large</option>
+                    </select>
+                </div>
+                <p>Click the frog to submit-----&#62; <input type="image" src="../Images/frog.gif" value="Subscribe" width="100" height="50" alt="Submit form"></p>
             </div>
         </form>
     </body>
