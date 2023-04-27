@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Download list</title></head>
+    <body>
+        {% for i in files %}
+            <a href="{{url_for('download_file', name=i[1])}}">{{i[0]}}</a>
+            <img src="{{url_for('download_file',name=i[1])}}" alt="{{i[0]}}" height="100" width ="100">
+            <hr>
+        {% endfor %}
+    </body>
+</html>
